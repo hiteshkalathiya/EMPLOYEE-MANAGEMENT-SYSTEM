@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 500px;
+    padding: 10px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#selectjob,
+#selectdepartment {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+table thead tr {
+    background-color: rgb(216, 216, 208);
+}
+
+th,
+td {
+    padding: 15px;
+    border: 2px solid black;
+}
+
+table, th {
+    border: 2px solid red;
+}

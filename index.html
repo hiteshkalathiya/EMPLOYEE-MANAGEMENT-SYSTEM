@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="form">
+        <label for="">Hire a new Employee</label>
+        <br />
+        <input type="text" placeholder="Employee name" id="name" /><br />
+        <select id="selectjob">
+            <option value="SDE-1">Software Development Engineer 1</option>
+            <option value="SDE-2">Software Development Engineer 2</option>
+            <option value="QA">Quality Assurance Engineer</option>
+            <option value="PM">Product Manager</option>
+        </select><br />
+        <select id="selectdepartment">
+            <option value="Engineering">Engineering</option>
+            <option value="HR">Human Resources</option>
+            <option value="Sales">Sales</option>
+            <option value="Marketing">Marketing</option>
+        </select><br /> <input type="number" id="salary" placeholder="Monthly Salary" /><br />
+        <input type="number" placeholder="Previous Work Experience in years" id="work" /><br />
+        <input type="email" placeholder="Contact Email" id="email" /><br />
+        <input type="submit" value="Hire" />
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Employee name</th>
+                <th>Job role</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Contact Email</th>
+                <th>Work Experience</th>
+                <th>Role type</th>
+                <th>Fire Employee</th>
+            </tr>
+        </thead>
+        <tbody id="body"></tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
